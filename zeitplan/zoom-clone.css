@@ -1,0 +1,29 @@
+*{
+    background-image: url('plexels12.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button{
+    background-color:rgb(9, 70, 214);
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 40%;
+    font: 1em sans-serif;
+    font-weight:1000px;
+    font-size: large;
+}
+
+button:hover{
+    box-shadow: 0 0 5px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+}
+

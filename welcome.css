@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+ .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pp.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right:8%;
+    box-sizing: border-box;
+
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    border-radius: 10px;
+    width: 180px;
+    cursor: pointer;
+
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+margin-left: 40px;}
+
+nav{
+    flex: 1;
+    padding-left: 21%;
+    padding-top: 12%;
+
+}
+.hello{
+    padding-right: 15%;
+    align-items: center;
+    color: #fff;
+    
+}
+.navbar nav h2{
+    list-style: none;
+    display: inline-block;
+   /*  margin-left: 40px; */
+    text-decoration: none;
+    color: #f8b9b9;
+    font-size: 76px;
+   
+
+}
+.hello{
+    font-size: small;
+    font color: #fff;
+}
+
+h3{
+    color: #d18d8d;
+    padding-right: -20%;
+}
+/* nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+} */
+/* nav h2{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 50%;
+} */
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+.lo{
+    background: transparent;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+}
+.card{
+    width: 50000px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(pp.jpg);
+    background-position: center;
+    background-size:cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(app1.jpeg);
+}
+.card2{
+    background-image: url(brain.jpg);
+}
+.card3{
+    background-image: url(health.jpeg);
+}
+.card4{
+    background-image: url(card4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+
+}
+/* .row .col button{
+    padding bottom:50px;
+} */
+
+
+
